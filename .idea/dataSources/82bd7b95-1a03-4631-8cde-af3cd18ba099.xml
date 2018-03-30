@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="SovietGameCriticDB">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.4">
+    <root id="1"/>
+    <database id="2" parent="1" name="postgres">
+      <ObjectId>12401</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="dvdrental">
+      <ObjectId>16750</ObjectId>
+    </database>
+    <database id="4" parent="1" name="V&amp;S_data">
+      <ObjectId>17078</ObjectId>
+    </database>
+    <database id="5" parent="1" name="GameUniverse">
+      <ObjectId>24661</ObjectId>
+    </database>
+    <database id="6" parent="1" name="games">
+      <ObjectId>24665</ObjectId>
+    </database>
+    <database id="7" parent="1" name="gameuniversedatabase">
+      <ObjectId>24676</ObjectId>
+    </database>
+    <schema id="8" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2018-03-17.15:40:30.602</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1057</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="9" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="information_schema">
+      <ObjectId>12113</ObjectId>
+    </schema>
+    <sequence id="14" parent="8" name="USER_id_seq">
+      <ObjectId>24687</ObjectId>
+      <StateNumber>1033</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="15" parent="8" name="game_id_seq">
+      <ObjectId>24702</ObjectId>
+      <StateNumber>1036</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="16" parent="8" name="review_id_seq">
+      <ObjectId>24713</ObjectId>
+      <StateNumber>1039</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="17" parent="8" name="vid_id_seq">
+      <ObjectId>24722</ObjectId>
+      <StateNumber>1042</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <object-type id="18" parent="8" name="platform">
+      <ObjectId>24756</ObjectId>
+      <StateNumber>1057</StateNumber>
+      <SubKind>enum</SubKind>
+      <SubCategory>enum</SubCategory>
+      <Labels>PC
+Xbox
+PlayStation
+Switch</Labels>
+    </object-type>
+    <table id="19" parent="8" name="game">
+      <ObjectId>24704</ObjectId>
+      <StateNumber>1056</StateNumber>
+    </table>
+    <table id="20" parent="8" name="review">
+      <ObjectId>24715</ObjectId>
+      <StateNumber>1051</StateNumber>
+    </table>
+    <table id="21" parent="8" name="user">
+      <ObjectId>24689</ObjectId>
+      <StateNumber>1050</StateNumber>
+    </table>
+    <table id="22" parent="8" name="vid">
+      <ObjectId>24724</ObjectId>
+      <StateNumber>1055</StateNumber>
+    </table>
+    <column id="23" parent="19" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1036</StateNumber>
+      <SequenceName>game_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;game_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="24" parent="19" name="gametitle">
+      <Position>2</Position>
+      <DataType>varchar(150)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1036</StateNumber>
+    </column>
+    <column id="25" parent="19" name="genre">
+      <Position>3</Position>
+      <DataType>varchar(150)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1036</StateNumber>
+    </column>
+    <column id="26" parent="19" name="releasedate">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <StateNumber>1036</StateNumber>
+    </column>
+    <column id="27" parent="19" name="company">
+      <Position>5</Position>
+      <DataType>varchar(150)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1036</StateNumber>
+    </column>
+    <column id="28" parent="19" name="pic">
+      <Position>6</Position>
+      <DataType>varchar(500)|0</DataType>
+      <StateNumber>1036</StateNumber>
+    </column>
+    <column id="29" parent="19" name="platform">
+      <Position>7</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1056</StateNumber>
+    </column>
+    <index id="30" parent="19" name="game_gametitle_pk">
+      <ObjectId>24748</ObjectId>
+      <ColNames>gametitle</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="31" parent="19" name="game_gametitle_uindex">
+      <ObjectId>24747</ObjectId>
+      <ColNames>gametitle</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="32" parent="19" name="game_gametitle_pk">
+      <ObjectId>24749</ObjectId>
+      <ColNames>gametitle</ColNames>
+      <UnderlyingIndexName>game_gametitle_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="33" parent="20" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1039</StateNumber>
+      <SequenceName>review_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;review_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="34" parent="20" name="score">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1039</StateNumber>
+    </column>
+    <index id="35" parent="20" name="review_id_uindex">
+      <ObjectId>24721</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="36" parent="20" name="review_pkey">
+      <ObjectId>24719</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="37" parent="20" name="review_pkey">
+      <ObjectId>24720</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>review_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="38" parent="20" name="review_vid_reviewid_fk">
+      <ObjectId>24742</ObjectId>
+      <ColNames>id</ColNames>
+      <RefTableId>24724</RefTableId>
+      <RefColPositions>4</RefColPositions>
+      <RefTableName>vid</RefTableName>
+      <RefKeyName>vid_reviewid_pk</RefKeyName>
+      <RefColNames>reviewid</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="39" parent="21" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1033</StateNumber>
+      <SequenceName>USER_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;&quot;USER_id_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="40" parent="21" name="firstname">
+      <Position>2</Position>
+      <DataType>varchar(150)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1037</StateNumber>
+    </column>
+    <column id="41" parent="21" name="secondname">
+      <Position>3</Position>
+      <DataType>varchar(150)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1038</StateNumber>
+    </column>
+    <column id="42" parent="21" name="email">
+      <Position>4</Position>
+      <DataType>varchar(120)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1033</StateNumber>
+    </column>
+    <column id="43" parent="21" name="country">
+      <Position>5</Position>
+      <DataType>varchar(120)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1033</StateNumber>
+    </column>
+    <column id="44" parent="21" name="password">
+      <Position>6</Position>
+      <DataType>varchar(150)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1033</StateNumber>
+    </column>
+    <index id="45" parent="21" name="USER_pkey">
+      <ObjectId>24696</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="46" parent="21" name="USER_pkey">
+      <ObjectId>24697</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>USER_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="47" parent="21" name="user_vid_reviewid_fk">
+      <ObjectId>24737</ObjectId>
+      <ColNames>id</ColNames>
+      <RefTableId>24724</RefTableId>
+      <RefColPositions>4</RefColPositions>
+      <RefTableName>vid</RefTableName>
+      <RefKeyName>vid_reviewid_pk</RefKeyName>
+      <RefColNames>reviewid</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="48" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1042</StateNumber>
+      <SequenceName>vid_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;vid_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="49" parent="22" name="gametitle">
+      <Position>2</Position>
+      <DataType>varchar(150)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1042</StateNumber>
+    </column>
+    <column id="50" parent="22" name="userid">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1042</StateNumber>
+    </column>
+    <column id="51" parent="22" name="reviewid">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1042</StateNumber>
+    </column>
+    <index id="52" parent="22" name="vid_id_uindex">
+      <ObjectId>24730</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="53" parent="22" name="vid_userid_uindex">
+      <ObjectId>24731</ObjectId>
+      <ColNames>userid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="54" parent="22" name="vid_reviewid_pk">
+      <ObjectId>24735</ObjectId>
+      <ColNames>reviewid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="55" parent="22" name="vid_reviewid_uindex">
+      <ObjectId>24734</ObjectId>
+      <ColNames>reviewid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="56" parent="22" name="vid_reviewid_pk">
+      <ObjectId>24736</ObjectId>
+      <ColNames>reviewid</ColNames>
+      <UnderlyingIndexName>vid_reviewid_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="57" parent="22" name="vid_game_gametitle_fk">
+      <ObjectId>24750</ObjectId>
+      <ColNames>gametitle</ColNames>
+      <RefTableId>24704</RefTableId>
+      <RefColPositions>2</RefColPositions>
+      <RefTableName>game</RefTableName>
+      <RefKeyName>game_gametitle_pk</RefKeyName>
+      <RefColNames>gametitle</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+  </database-model>
+</dataSource>
