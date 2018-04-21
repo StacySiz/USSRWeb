@@ -2,20 +2,22 @@ package ru.itis.models.forms;
 
 public class RegistrationForm {
 
-    private int id;
     private String firstName;
     private String  secondName;
     private String email;
     private String country;
     private String password;
 
-    public int getId() {
-        return id;
-    }
+//    public RegistrationForm(){}
+//
+//    public RegistrationForm(String firstName, String secondName, String email, String country, String password) {
+//        this.firstName = firstName;
+//        this.secondName = secondName;
+//        this.email = email;
+//        this.country = country;
+//        this.password = password;
+//    }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getFirstName() {
         return firstName;

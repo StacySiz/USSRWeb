@@ -4,22 +4,17 @@ package ru.itis.models;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 @Entity
-@Table(name = "review")
+@Table(name = "review",schema = "public")
 public class Review {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
-
-    @NotNull
-    @Size(min = 1,max = 120)
-    private String authorEmail;
-
-    @NotNull
-    @Size(min = 1,max = 50)
-    private String gameTile;
+    private Integer id;
 
     @NotNull
     @Size(min = 1,max = 10)
@@ -28,28 +23,27 @@ public class Review {
     @NotNull
     private String reviewDate;
 
+    @NotNull
+    private String description;
+
+    @NotNull
+    private String reviewName;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id")
+    private User user;
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "game_id")
+    private Game game;
+
+
     public int getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
-    }
-
-    public String getAuthorEmail() {
-        return authorEmail;
-    }
-
-    public void setAuthorEmail(String authorEmail) {
-        this.authorEmail = authorEmail;
-    }
-
-    public String getGameTile() {
-        return gameTile;
-    }
-
-    public void setGameTile(String gameTile) {
-        this.gameTile = gameTile;
     }
 
     public String getScore() {

@@ -12,11 +12,11 @@ CREATE UNIQUE INDEX USER_email_uindex ON public."USER" (email)
 CREATE TABLE public.GAME
 (
   Id SERIAL PRIMARY KEY NOT NULL,
-  gameTitle VARCHAR(150) NOT NULL,
+  vidgameTitle VARCHAR(150) NOT NULL,
   genre VARCHAR(150) NOT NULL,
   releaseDate VARCHAR(50),
   company VARCHAR(150) NOT NULL,
   pic VARCHAR(500)
 );
 CREATE UNIQUE INDEX GAME_Id_uindex ON public.GAME (Id);
-CREATE UNIQUE INDEX GAME_gameTitle_uindex ON public.GAME (gameTitle)
+CREATE UNIQUE INDEX GAME_gameTitle_uindex ON public.GAME (vidgameTitle)

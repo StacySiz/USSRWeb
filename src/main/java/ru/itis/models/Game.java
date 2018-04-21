@@ -4,18 +4,22 @@ package ru.itis.models;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.List;
 
 
 @Entity
-@Table(name = "game")
+@Table(name = "game",schema = "public")
 public class Game {
+
+
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
+
 
     @NotNull
     @Size(min = 1,max = 50)
-    private String gameTile;
+    private String gameTitle;
 
     @NotNull
     @Size(min = 1,max = 50)
@@ -26,25 +30,39 @@ public class Game {
 
     @NotNull
     @Size(min = 1,max = 50)
-    private String companyName;
+    private String company;
 
+    @OneToMany(mappedBy = "game", fetch = FetchType.EAGER)
+    private List<Review> reviews;
+
+    @NotNull
+    @ManyToMany(mappedBy = "games")
+    private List<Platform> platform;
 
     private String pic;
 
-    public int getId() {
+    public List<Platform> getPlatform() {
+        return platform;
+    }
+
+    public void setPlatform(List<Platform> platform) {
+        this.platform = platform;
+    }
+
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
-    public String getGameTile() {
-        return gameTile;
+    public String getGameTitle() {
+        return gameTitle;
     }
 
-    public void setGameTile(String gameTile) {
-        this.gameTile = gameTile;
+    public void setGameTitle(String gameTitle) {
+        this.gameTitle = gameTitle;
     }
 
     public String getGenre() {
@@ -63,12 +81,12 @@ public class Game {
         this.releaseDate = releaseDate;
     }
 
-    public String getCompanyName() {
-        return companyName;
+    public String getCompany() {
+        return company;
     }
 
-    public void setCompanyName(String companyName) {
-        this.companyName = companyName;
+    public void setCompany(String company) {
+        this.company = company;
     }
 
     public String getPic() {
@@ -79,4 +97,9 @@ public class Game {
         this.pic = pic;
     }
 
+    @Override
+    public String toString() {
+        String game = gameTitle + " " + genre + " " + releaseDate + " " + company + " " + platform;
+        return game;
+    }
 }

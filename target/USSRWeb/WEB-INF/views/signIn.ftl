@@ -20,7 +20,7 @@
 <body class="text-center">
 <form class="form-signin">
     <div class="text-center mb-4">
-        <img class="mb-4" src="pics/symbol.gif" alt="" width="144" height="144">
+        <img class="mb-4" src="resources/pics/symbol.gif" alt="" width="144" height="144">
         <h1 class="h3 mb-3 font-weight-normal">Вход</h1>
     </div>
 

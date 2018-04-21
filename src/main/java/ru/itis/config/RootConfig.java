@@ -35,7 +35,8 @@ public class RootConfig {
     @Bean(name = "dataSource")
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName("org.postgresql.Driver");
+        dataSource.setDriverClassName(env.getRequiredProperty("db.driver"));
+        dataSource.setUrl(env.getRequiredProperty("db.url"));
         dataSource.setUsername(env.getRequiredProperty("db.username"));
         dataSource.setPassword(env.getRequiredProperty("db.password"));
 
@@ -78,4 +79,5 @@ public class RootConfig {
         properties.setProperty("hibernate.show_sql", "true");
         return properties;
     }
+
 }
