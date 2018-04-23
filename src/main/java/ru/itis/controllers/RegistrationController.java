@@ -36,11 +36,10 @@ public class RegistrationController {
 
     @PostMapping(value = "/registration")
     public String registerUser(@Valid @ModelAttribute(name = "regForm") RegistrationForm registrationForm,
-                                     BindingResult result, RedirectAttributes attributes) {
+                                     BindingResult result, RedirectAttributes attributes,Model model) {
         userValidator.validate(registrationForm,result);
         if(result.hasErrors()){
-            attributes.addFlashAttribute("error", result.getAllErrors().get(0).getDefaultMessage());
-//            attributes.addAttribute("error",result.getAllErrors());
+            model.addAttribute("error", result.getAllErrors().get(0).getDefaultMessage());
 
             return "registration";
         }

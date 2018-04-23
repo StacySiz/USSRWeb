@@ -6,6 +6,7 @@ import lombok.*;
 import ru.itis.security.enums.Role;
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.util.ArrayList;

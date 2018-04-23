@@ -22,25 +22,29 @@
 
 <body class="text-center">
 <h1></h1>
-<#if error!=null>
-    <@spring.message '${error}'/>
-<#--${error}-->
-</#if>
 <form name="regForm" class="form-signin" method="post" action="/registration">
     <img src="resources/pics/symbol.gif" alt="" width="144" height="144">
 
     <h1 class="h3 mb-3 font-weight-normal">Регистрация</h1>
+<#if (error)??>
+<#--<#list error as error>-->
+    <#--${error}-->
+<#--</#list>-->
+<#--<@spring.message '${error}'/>-->
+${error}
+</#if>
+    <#--<span class="error">${error}</span>-->
+    <br>
     <!--<label for="firstName">First name </label>-->
     <input type=text id="firstName" name="firstName" class="form-control" placeholder="Ваше имя">
-
-    <input type=text id="secondName" name="secondName" class="form-control" placeholder="Ваша фамилия">
+    <input type=text id="secondName" name="secondName" class="form-control" placeholder="Ваша фамилия" >
 
     <input type=text id="country" name="country" class="form-control" placeholder="Страна">
 
 
     <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Электроная почта" required autofocus>
 
-    <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Пароль" required>
+    <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Пароль" required >
 
     <div class="checkbox mb-3">
         <label>

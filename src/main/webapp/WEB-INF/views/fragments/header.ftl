@@ -11,6 +11,7 @@
     <title></title>
     <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="resources/css/header.css" rel="stylesheet">
+    <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -23,7 +24,7 @@
 <div th:fragment="navbar">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
     <!--<nav class="navbar  navbar-expand-lg navbar-light rounded" style="background-color:#e80018">-->
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/index">
         <img src="resources/pics/symbol.gif" width="50" height="50" class="d-inline-block align-top" alt="">
         Страна Советов
     </a>
@@ -35,6 +36,9 @@
 
     <div class="collapse navbar-collapse justify-content-md-center" id="navbar">
         <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/games">Все игры</a>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown" data-toggle="dropdown" aria-haspopup="true"
                    aria-expanded="false">Платформа</a>
@@ -56,7 +60,8 @@
     </div>
 
         <@security.authorize access="isAuthenticated()">
-            <#--logged in as <@security.authentication property="principal.email" />-->
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+            <a class="btn btn-outline-info" href="/profile" id="profileBtn">Profile</a>
             <a class="btn btn-outline-danger" href="/logout">Sign Out</a>
         </@security.authorize>
 <@security.authorize access="! isAuthenticated()">
