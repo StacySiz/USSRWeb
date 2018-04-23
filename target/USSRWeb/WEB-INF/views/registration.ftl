@@ -1,4 +1,4 @@
-﻿
+﻿<#import "/spring.ftl" as spring/>
 <html lang="ru">
 <head>
     <!-- Required meta tags -->
@@ -22,8 +22,9 @@
 
 <body class="text-center">
 <h1></h1>
-<#if error??>
-${error}
+<#if error!=null>
+    <@spring.message '${error}'/>
+<#--${error}-->
 </#if>
 <form name="regForm" class="form-signin" method="post" action="/registration">
     <img src="resources/pics/symbol.gif" alt="" width="144" height="144">

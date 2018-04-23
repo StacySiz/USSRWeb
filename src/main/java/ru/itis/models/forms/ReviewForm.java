@@ -1,7 +1,13 @@
 package ru.itis.models.forms;
 
+import lombok.*;
+
 import java.util.Date;
 
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
 public class ReviewForm {
     private String score;
 
@@ -18,35 +24,35 @@ public class ReviewForm {
         this.reviewName = reviewName;
     }
 
-    public String getScore() {
-        return score;
-    }
-
-    public void setScore(String score) {
-        this.score = score;
-    }
-
-    public Date getReviewDate() {
-        return reviewDate;
-    }
-
-    public void setReviewDate(Date reviewDate) {
-        this.reviewDate = reviewDate;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getReviewName() {
-        return reviewName;
-    }
-
-    public void setReviewName(String reviewName) {
-        this.reviewName = reviewName;
-    }
+//    public String getScore() {
+//        return score;
+//    }
+//
+//    public void setScore(String score) {
+//        this.score = score;
+//    }
+//
+//    public Date getReviewDate() {
+//        return reviewDate;
+//    }
+//
+//    public void setReviewDate(Date reviewDate) {
+//        this.reviewDate = reviewDate;
+//    }
+//
+//    public String getDescription() {
+//        return description;
+//    }
+//
+//    public void setDescription(String description) {
+//        this.description = description;
+//    }
+//
+//    public String getReviewName() {
+//        return reviewName;
+//    }
+//
+//    public void setReviewName(String reviewName) {
+//        this.reviewName = reviewName;
+//    }
 }

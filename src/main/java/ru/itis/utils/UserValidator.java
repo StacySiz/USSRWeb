@@ -20,23 +20,23 @@ public class UserValidator implements Validator {
 
     @Override
     public void validate(Object o, Errors errors) {
-        RegistrationForm regForm = (RegistrationForm) o;
+//        RegistrationForm regForm = (RegistrationForm) o;
 //        User user = (User) o;
-//        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"firstName","NotEmpty");
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"firstName","NotEmpty");
 //        if (regForm.getFirstName().length() < 3 || regForm.getFirstName().length() > 15){
 //            errors.rejectValue("firstName","Size.registrationForm.firstName");
 //        }
-//        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"secondName","NotEmpty");
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"secondName","NotEmpty");
 //        if (regForm.getSecondName().length() < 3 || regForm.getSecondName().length() > 15){
 //            errors.rejectValue("secondName","Size.registrationForm.secondName");
 //        }
-//        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"password","NotEmpty");
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"password","NotEmpty");
 //        if(regForm.getPassword().length() < 5 ||regForm.getPassword().length()>30){
 //            errors.rejectValue("password","Size.registrationForm.password");
 //        }
 
-        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "firstName", "empty.login", "Пустой логин");
-        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "secondName", "empty.password", "Пустой пароль");
+//        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "firstName", "empty.login", "Пустой логин");
+//        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "secondName", "empty.password", "Пустой пароль");
 
     }
     }

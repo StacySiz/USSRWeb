@@ -1,4 +1,4 @@
-﻿<!doctype html>
+﻿﻿<!doctype html>
 <html lang="ru">
 <head>
     <!-- Required meta tags -->
@@ -18,19 +18,19 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body class="text-center">
-<form class="form-signin">
+<form class="form-signin" action="/signIn" method="post">
     <div class="text-center mb-4">
         <img class="mb-4" src="resources/pics/symbol.gif" alt="" width="144" height="144">
         <h1 class="h3 mb-3 font-weight-normal">Вход</h1>
     </div>
 
     <div class="form-label-group">
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <input type="email" id="inputEmail" class="form-control" name="email" placeholder="Email address" required autofocus>
         <label for="inputEmail">Электронная почта</label>
     </div>
 
     <div class="form-label-group">
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="password" id="inputPassword" class="form-control" name="password" placeholder="Password" required>
         <label for="inputPassword">Пароль</label>
     </div>
 

@@ -30,15 +30,15 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         return new UserValidator();
     }
 
-    @Bean(name = "userService")
-    public UserRegistrationServiceImpl userService() {
-        return new UserRegistrationServiceImpl();
-    }
-
-    @Bean
-    public GameService gameService() {
-        return new GameServiceImpl();
-    }
+//    @Bean(name = "userService")
+//    public UserRegistrationServiceImpl userService() {
+//        return new UserRegistrationServiceImpl();
+//    }
+//
+//    @Bean
+//    public GameService gameService() {
+//        return new GameServiceImpl();
+//    }
 
     @Bean
     public StringToGameConverter gameConverter() {
@@ -49,8 +49,13 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         registry.addConverter(gameConverter());
     }
 
-    @Bean
-    public UserAuthenticationServiceImpl authenticationService() {
-        return new UserAuthenticationServiceImpl();
-    }
+//    @Bean
+//    public UserAuthenticationServiceImpl authenticationService() {
+//        return new UserAuthenticationServiceImpl();
+//    }
+
+//    @Bean
+//    public AuthProvider authProvider(){
+//        return new AuthProvider();
+//    }
 }

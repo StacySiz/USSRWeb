@@ -16,7 +16,7 @@ public class GameController {
     @Autowired
     private StringToGameConverter gameConverter;
     @Autowired
-    GameService gameService;
+    private GameService gameService;
 
     @GetMapping("/addGame")
     public String getPage(){
@@ -34,5 +34,11 @@ public class GameController {
 //        game = gameConverter.convert(id);
         model.addAttribute("game",game.getGameTitle());
         return "redirect:/index";
+    }
+    @GetMapping("/games")
+    public String showGames(Model model){
+//        System.out.println("THIS IS FROM GAME CONTROLLER "+ gameService.getAllGames());
+        model.addAttribute("allGames",gameService.getAllGames());
+        return "games";
     }
 }

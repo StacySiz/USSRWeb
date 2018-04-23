@@ -37,13 +37,13 @@ public class RegistrationController {
     @PostMapping(value = "/registration")
     public String registerUser(@Valid @ModelAttribute(name = "regForm") RegistrationForm registrationForm,
                                      BindingResult result, RedirectAttributes attributes) {
-//        userValidator.validate(registrationForm,result);
-//        if(result.hasErrors()){
-////            attributes.addFlashAttribute("error", result.getAllErrors().get(0).getDefaultMessage());
+        userValidator.validate(registrationForm,result);
+        if(result.hasErrors()){
+            attributes.addFlashAttribute("error", result.getAllErrors().get(0).getDefaultMessage());
 //            attributes.addAttribute("error",result.getAllErrors());
-//
-//            return "registration";
-//        }
+
+            return "registration";
+        }
         System.out.println("This name is from controller's regForm "  + registrationForm.getFirstName());
         System.out.println("This password is  from controller's regForm "  + registrationForm.getPassword());
         userService.registration(registrationForm);

@@ -9,6 +9,7 @@ import org.springframework.dao.DuplicateKeyException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import ru.itis.repositories.UserRepository;
+import ru.itis.security.enums.Role;
 import ru.itis.services.UserRegistrationService;
 
 @Service
@@ -29,6 +30,7 @@ public class UserRegistrationServiceImpl implements UserRegistrationService {
             .country(registrationForm.getCountry())
             .email(registrationForm.getEmail())
             .password(passwordEncoder.encode(registrationForm.getPassword()))
+            .role(Role.USER)
             .build();
 
 //        if(repository.findByEmail(user.getEmail() )!=null){

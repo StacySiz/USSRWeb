@@ -17,7 +17,7 @@
   <!-- Spring -->
   <spring-framework.version>4.3.7.RELEASE</spring-framework.version>
   <spring-data-jpa.version>1.11.1.RELEASE</spring-data-jpa.version>
-  <spring-security.version>4.2.2.RELEASE</spring-security.version>
+  <spring-security.version>4.2.3.RELEASE</spring-security.version>
 
 
   <!-- Java EE / Java SE dependencies -->
@@ -171,7 +171,6 @@
       <version>1.16.16</version>
       <scope>provided</scope>
     </dependency>
-
   </dependencies>
 
 
