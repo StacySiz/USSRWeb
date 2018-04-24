@@ -51,4 +51,9 @@ public class ReviewServiceImpl implements ReviewService {
         return reviewRepository.findAll();
     }
 
+    @Override
+    public Review getReviewById(Long id) {
+        return reviewRepository.getReviewById(id);
+    }
+
 }

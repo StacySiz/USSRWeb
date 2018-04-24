@@ -39,7 +39,7 @@
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">${game.gameTitle}</h4>
+                                    <h4 class="card-title"><a href="/game/${game.id}">${game.gameTitle}</a></h4>
                                     <p class="card-text">${game.description}</p>
                                     <ul class="list-inline">
                                         <li class="list-inline-item">

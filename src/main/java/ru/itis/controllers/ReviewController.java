@@ -5,7 +5,10 @@ import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import ru.itis.exceptions.NotFoundExc;
+import ru.itis.models.Game;
 import ru.itis.models.Review;
 import ru.itis.models.User;
 import ru.itis.models.forms.ReviewForm;
@@ -55,11 +58,19 @@ public class ReviewController {
 //            System.out.println("LET'S ADD AN AUTHOR "+author.getEmail());
                 authors.add(author);
         }
-
         model.addAttribute("allAuthors",authors);
         System.out.println("THESE ARE THE AUTHORS "+ authors);
 
         return "reviews";
+    }
+    @GetMapping("/review/{id}")
+    public String findReview(@PathVariable("id") Long id, Model model){
+        Review review = reviewService.getReviewById(id);
+        if(review==null) {
+            throw new NotFoundExc("review");
+        }
+        model.addAttribute("review",review);
+        return "review";
     }
 
 }
