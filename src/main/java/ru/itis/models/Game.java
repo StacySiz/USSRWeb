@@ -39,8 +39,8 @@ public class Game {
     @OneToMany(mappedBy = "game", fetch = FetchType.LAZY)
     private List<Review> reviews;
 
-    @OneToOne
-    private Image image;
+//    @OneToOne
+//    private Image image;
 
     public String description;
 

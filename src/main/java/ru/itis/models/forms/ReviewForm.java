@@ -8,8 +8,9 @@ import java.util.Date;
 @Setter
 @Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class ReviewForm {
-    private String score;
+    private int score;
 
     private Date reviewDate;
 
@@ -17,12 +18,14 @@ public class ReviewForm {
 
     private String reviewName;
 
-    public ReviewForm(String score, Date reviewDate, String description, String reviewName) {
-        this.score = score;
-        this.reviewDate = reviewDate;
-        this.description = description;
-        this.reviewName = reviewName;
-    }
+    private String gameTitle;
+
+//    public ReviewForm(int score, Date reviewDate, String description, String reviewName) {
+//        this.score = score;
+//        this.reviewDate = reviewDate;
+//        this.description = description;
+//        this.reviewName = reviewName;
+//    }
 
 //    public String getScore() {
 //        return score;

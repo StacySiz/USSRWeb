@@ -24,7 +24,7 @@ public class GameServiceImpl implements GameService {
         .genre(gameForm.getGenre())
         .company(gameForm.getCompany())
         .releaseDate(gameForm.getReleaseDate())
-        .image(defaultImage)
+//        .image(defaultImage)
         .build();
         gameRepository.save(newGame);
         return newGame;

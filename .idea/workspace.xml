@@ -7,15 +7,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9468841e-8083-45f3-a831-5df68087c215" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/itis/utils/UserValidator.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/pics/review.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/services/ReviewService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/ReviewServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/reviews.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/reviews.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_4_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_4_2_4_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_4_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_4_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_4_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_4_2_4_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/config/SecurityConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/controllers/ReviewController.class" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/controllers/ReviewController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/models/Game$GameBuilder.class" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/models/Game$GameBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/models/Game.class" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/models/Game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/models/Review$ReviewBuilder.class" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/models/Review$ReviewBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/models/Review.class" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/models/Review.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/models/forms/ReviewForm$ReviewFormBuilder.class" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/models/forms/ReviewForm$ReviewFormBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/models/forms/ReviewForm.class" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/models/forms/ReviewForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/repositories/ReviewRepository.class" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/repositories/ReviewRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/services/implementation/GameServiceImpl.class" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/ru/itis/services/implementation/GameServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/config/SecurityConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/controllers/ReviewController.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/controllers/ReviewController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/models/Game$GameBuilder.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/models/Game$GameBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/models/Game.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/models/Game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/models/Review$ReviewBuilder.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/models/Review$ReviewBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/models/Review.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/models/Review.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/models/forms/ReviewForm$ReviewFormBuilder.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/models/forms/ReviewForm$ReviewFormBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/models/forms/ReviewForm.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/models/forms/ReviewForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/repositories/ReviewRepository.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/repositories/ReviewRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/services/implementation/GameServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/services/implementation/GameServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/USSRWeb_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/USSRWeb_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/controllers/RegistrationController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/controllers/RegistrationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/models/User.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/models/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/utils/UserValidator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/utils/UserValidator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/USSRWeb.iml" afterPath="$PROJECT_DIR$/USSRWeb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/config/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/config/SecurityConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/controllers/ReviewController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/controllers/ReviewController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/models/Game.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/models/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/models/Review.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/models/Review.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/models/forms/ReviewForm.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/models/forms/ReviewForm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/repositories/ReviewRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/repositories/ReviewRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/GameServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/GameServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/header.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/header.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/games.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/games.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/review-form.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/review-form.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/games.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/games.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/header.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/validation.properties" afterPath="$PROJECT_DIR$/src/main/webapp/resources/validation.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/registration.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/registration.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/css/games.css" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/css/games.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/css/header.css" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/css/header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/css/registration.css" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/classes/css/registration.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/views/fragments/header.ftl" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/views/fragments/header.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/views/games.ftl" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/views/games.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/views/review-form.ftl" afterPath="$PROJECT_DIR$/target/USSRWeb/WEB-INF/views/review-form.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/resources/css/games.css" afterPath="$PROJECT_DIR$/target/USSRWeb/resources/css/games.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/resources/css/header.css" afterPath="$PROJECT_DIR$/target/USSRWeb/resources/css/header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/USSRWeb/resources/css/registration.css" afterPath="$PROJECT_DIR$/target/USSRWeb/resources/css/registration.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/css/games.css" afterPath="$PROJECT_DIR$/target/classes/css/games.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/css/header.css" afterPath="$PROJECT_DIR$/target/classes/css/header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/css/registration.css" afterPath="$PROJECT_DIR$/target/classes/css/registration.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,7 +122,7 @@
         <item name="postgres" type="e3449647:DbNodeDescriptor" />
         <item name="public" type="e3449647:DbNodeDescriptor" />
         <item name="" type="fce03ad6:DatabaseStructure$GroupNode" />
-        <item name="storage" type="e3449647:DbNodeDescriptor" />
+        <item name="review" type="e3449647:DbNodeDescriptor" />
       </path>
       <path>
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
@@ -86,78 +137,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/header.css">
+      <file leaf-file-name="ReviewServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/ReviewServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="420">
+              <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserValidator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/utils/UserValidator.java">
+      <file leaf-file-name="Review.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/models/Review.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="29" column="64" lean-forward="false" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+            <state relative-caret-position="336">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.ftl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/header.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/controllers/GameController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validation.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/validation.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/controllers/RegistrationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user" pinned="false" current-in-tab="false">
-        <entry file="das://table:/1795ed21/82bd7b95-1a03-4631-8cde-af3cd18ba099/postgres.public.user">
+      <file leaf-file-name="review" pinned="false" current-in-tab="false">
+        <entry file="das://table:/1795ed21/82bd7b95-1a03-4631-8cde-af3cd18ba099/postgres.public.review">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -168,18 +169,71 @@
       <file leaf-file-name="profile.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="525">
+              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/profile.css">
+      <file leaf-file-name="header.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/header.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="822">
+              <caret line="53" column="45" lean-forward="false" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reviews.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/reviews.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="35" column="75" lean-forward="false" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ftl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="games.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/games.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/GameServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReviewController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/controllers/ReviewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -200,6 +254,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>jpa</find>
+      <find>container</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -219,29 +274,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/services/UserAuthenticationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/security/providers/AuthProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/services/UserAuthenticationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/config/SecurityWebApplicationInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/exceptions/NotFoundExc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/repositories/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/header.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/index.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/header.css" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/config/ViewResolverConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.html" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/models/Review.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/models/Platform.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/models/forms/RegistrationForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/models/forms/ReviewForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/models/forms/SignInForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/security/details/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/security/details/UserDetailsImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/security/details/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/config/AuthProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/controllers/SignInController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/config/WebInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/signIn.ftl" />
@@ -249,27 +287,44 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/platform-form.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/profile.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/games.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/games.css" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/repositories/GameRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/services/GameService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/models/forms/GameForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/controllers/GameController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/models/Image.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/models/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/repositories/ImageRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/UserRegistrationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/games.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/GameServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/controllers/ProfileController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/controllers/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/validation.properties" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/utils/UserValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/models/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/GameServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/header.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/games.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/games.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/reviews.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/repositories/ReviewRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/testBar.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/reviews.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/test.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/testBar.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/review-form.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/registration.css" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/models/forms/ReviewForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/services/ReviewService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/review-form.ftl" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/ReviewServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/models/Review.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/controllers/ReviewController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/reviews.ftl" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/header.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl" />
       </list>
     </option>
   </component>
@@ -314,8 +369,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-10" />
+    <option name="y" value="2" />
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -433,6 +490,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="itis" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="USSRWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="USSRWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itis" type="462c0819:PsiDirectoryNode" />
               <item name="repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -505,6 +572,15 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="USSRWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="USSRWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="USSRWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -805,7 +881,7 @@
       <workItem from="1524242315672" duration="716000" />
       <workItem from="1524243096458" duration="9435000" />
       <workItem from="1524305689867" duration="7802000" />
-      <workItem from="1524322879929" duration="49358000" />
+      <workItem from="1524322879929" duration="73219000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1521463977677</created>
@@ -818,7 +894,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211861000" />
+    <option name="totallyTimeSpent" value="235722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -832,7 +908,7 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2867884" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13265306" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -840,13 +916,13 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22665147" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31776765" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1287016" sideWeight="0.49677765" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19931664" sideWeight="0.49677765" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17995444" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24436091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -880,251 +956,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/security/details/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/security/details/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/security/details/UserDetailsImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#672#673#0" expanded="false" />
-            <element signature="e#704#705#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#758#759#0" expanded="false" />
-            <element signature="e#807#808#0" expanded="false" />
-            <element signature="e#848#849#0" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#935#936#0" expanded="false" />
-            <element signature="e#993#994#0" expanded="false" />
-            <element signature="e#1020#1021#0" expanded="false" />
-            <element signature="e#1077#1078#0" expanded="false" />
-            <element signature="e#1104#1105#0" expanded="false" />
-            <element signature="e#1166#1167#0" expanded="false" />
-            <element signature="e#1193#1194#0" expanded="false" />
-            <element signature="e#1241#1242#0" expanded="false" />
-            <element signature="e#1269#1270#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/config/SecurityWebApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/config/AuthProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/config/WebInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="e#936#937#0" expanded="false" />
-            <element signature="e#979#980#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="24" column="85" lean-forward="false" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
-          <folding>
-            <marker date="1524334619315" expanded="false" signature="1246:1257" ph=" { " />
-            <marker date="1524334619315" expanded="false" signature="1284:1290" ph=" }" />
-            <marker date="1524334619315" expanded="true" signature="1292:1546" ph="//..." />
-            <marker date="1524334619315" expanded="false" signature="1606:1617" ph=" { " />
-            <marker date="1524334619315" expanded="false" signature="1652:1658" ph=" }" />
-            <marker date="1524334619315" expanded="false" signature="1717:1728" ph=" { " />
-            <marker date="1524334619315" expanded="false" signature="1767:1773" ph=" }" />
-            <marker date="1524334619315" expanded="true" signature="1775:2017" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/converters/StringToGameConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/platform-form.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/game-form.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/games.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="128" column="1" lean-forward="false" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.1.RELEASE/spring-data-commons-1.13.1.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/services/UserAuthenticationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/config/ViewResolverConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/review-form.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/signIn.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/controllers/ReviewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/controllers/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/services/GameService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/repositories/GameRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/1795ed21/82bd7b95-1a03-4631-8cde-af3cd18ba099/postgres.public.review">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/82bd7b95-1a03-4631-8cde-af3cd18ba099.SCHEMA:postgres.public">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>82bd7b95-1a03-4631-8cde-af3cd18ba099.SCHEMA:postgres.public</OriginalElement>
-          <nodes>
-            <node x="257.5" y="154.5">82bd7b95-1a03-4631-8cde-af3cd18ba099.TABLE:postgres.public.user</node>
-            <node x="10.5" y="141.0">82bd7b95-1a03-4631-8cde-af3cd18ba099.TABLE:postgres.public.game</node>
-            <node x="134.0" y="444.0">82bd7b95-1a03-4631-8cde-af3cd18ba099.TABLE:postgres.public.review</node>
-            <node x="0.0" y="0.0">82bd7b95-1a03-4631-8cde-af3cd18ba099.TABLE:postgres.public.platforms</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="82bd7b95-1a03-4631-8cde-af3cd18ba099.TABLE:postgres.public.game" target="82bd7b95-1a03-4631-8cde-af3cd18ba099.TABLE:postgres.public.platforms">
-              <point x="0.0" y="-126.5" />
-              <point x="0.0" y="45.5" />
-            </edge>
-            <edge source="82bd7b95-1a03-4631-8cde-af3cd18ba099.TABLE:postgres.public.review" target="82bd7b95-1a03-4631-8cde-af3cd18ba099.TABLE:postgres.public.game">
-              <point x="-58.0" y="-113.0" />
-              <point x="192.0" y="419.0" />
-              <point x="124.0" y="419.0" />
-              <point x="0.0" y="126.5" />
-            </edge>
-            <edge source="82bd7b95-1a03-4631-8cde-af3cd18ba099.TABLE:postgres.public.review" target="82bd7b95-1a03-4631-8cde-af3cd18ba099.TABLE:postgres.public.user">
-              <point x="58.0" y="-113.0" />
-              <point x="308.0" y="419.0" />
-              <point x="376.0" y="419.0" />
-              <point x="0.0" y="113.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.9173913043478261" x="54.61137440758296" y="431.61137440758296" />
-          <SelectedNodes>
-            <node>82bd7b95-1a03-4631-8cde-af3cd18ba099.TABLE:postgres.public.game</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/models/Platform.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
@@ -1158,22 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/games.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="29" column="86" lean-forward="false" selection-start-line="29" selection-start-column="86" selection-end-line="29" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/models/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/1795ed21/82bd7b95-1a03-4631-8cde-af3cd18ba099/postgres.public.game">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1189,42 +1004,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1932">
-          <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/UserAuthenticationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/UserRegistrationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/GameServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1237,14 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="58" column="41" lean-forward="true" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/controllers/SignInController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1253,26 +1028,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/controllers/ProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
           <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1293,25 +1052,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/1795ed21/82bd7b95-1a03-4631-8cde-af3cd18ba099/postgres.public.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/utils/UserValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="29" column="64" lean-forward="false" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1324,26 +1068,293 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/models/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="504">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/repositories/GameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/services/GameService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/repositories/ReviewRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/games.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="115" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="128" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/reviews.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="2" selection-end-line="277" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/testBar.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2878">
+          <caret line="143" column="20" lean-forward="false" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pics/pioneer.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pics/review.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="61" column="34" lean-forward="false" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/controllers/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/controllers/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="528">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/review-form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/game-form.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-639">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/registration.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="85" column="17" lean-forward="false" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/models/forms/ReviewForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1795ed21/82bd7b95-1a03-4631-8cde-af3cd18ba099/postgres.public.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/services/ReviewService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/review-form.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/repositories/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/core/Authentication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/services/UserAuthenticationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/UserAuthenticationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/GameServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/services/implementation/ReviewServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/models/Review.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1795ed21/82bd7b95-1a03-4631-8cde-af3cd18ba099/postgres.public.review">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/controllers/ReviewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/reviews.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="75" lean-forward="false" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/games.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/header.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="822">
+          <caret line="53" column="45" lean-forward="false" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding />
         </state>
       </provider>

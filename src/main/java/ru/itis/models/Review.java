@@ -19,12 +19,12 @@ import java.util.List;
 public class Review {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @NotNull
     @Size(min = 1,max = 10)
-    private String score;
+    private int score;
 
     @NotNull
     private String reviewDate;
@@ -33,6 +33,7 @@ public class Review {
     private String description;
 
     @NotNull
+    @Column(name = "review_name")
     private String reviewName;
 
     @ManyToOne(fetch = FetchType.LAZY)

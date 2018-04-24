@@ -23,5 +23,9 @@ body {
     /*width: auto;*/
 }
 #profileBtn{
-    margin-right: 0.5%;
+    margin-right: 1%;
+}
+#signBtn{
+    margin-right: 1%;
+
 }

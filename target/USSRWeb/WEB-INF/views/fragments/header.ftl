@@ -19,12 +19,12 @@
     </th:block>
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
     <#--<div class="span3 well">-->
 <div th:fragment="navbar">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
     <!--<nav class="navbar  navbar-expand-lg navbar-light rounded" style="background-color:#e80018">-->
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/index">
         <img src="resources/pics/symbol.gif" width="50" height="50" class="d-inline-block align-top" alt="">
         Страна Советов
     </a>
@@ -36,6 +36,14 @@
 
     <div class="collapse navbar-collapse justify-content-md-center" id="navbar">
         <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/index">Главная</a>
+            </li><li class="nav-item">
+                <a class="nav-link" href="/games">Все игры</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/reviews">Рецензии</a>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown" data-toggle="dropdown" aria-haspopup="true"
                    aria-expanded="false">Платформа</a>
@@ -47,9 +55,9 @@
                 </div>
             </li>
             <!--<a class="nav-link" href="#">Плaтформа <span class="sr-only">(current)</span></a>-->
-            <li class="nav-item">
-                <a class="nav-link" href="#">Новинки</a>
-            </li>
+            <#--<li class="nav-item">-->
+                <#--<a class="nav-link" href="#">Новинки</a>-->
+            <#--</li>-->
             <li class="nav-item">
                 <a class="nav-link" href="#">Лучшее</a>
             </li>
@@ -62,8 +70,8 @@
             <a class="btn btn-outline-danger" href="/logout">Sign Out</a>
         </@security.authorize>
 <@security.authorize access="! isAuthenticated()">
-    <a class="btn btn-outline-danger" href="/signIn">Sign in</a>
-    <a class="btn btn-outline-warning" href="/registration">Registration</a>
+    <a class="btn btn-outline-danger" href="/signIn" id="signBtn">Войти</a>
+    <a class="btn btn-outline-warning" href="/registration">Присоединиться</a>
 </@security.authorize>
 
 

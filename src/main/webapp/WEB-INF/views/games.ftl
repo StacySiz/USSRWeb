@@ -11,7 +11,8 @@
     <!------ Include the above in your HEAD tag ---------->
 </head>
 <body>
-<!-- Team -->
+<#include "fragments/header.ftl">
+<div class="container">
 <section id="team" class="pb-5">
     <div class="container">
     <#--<p>${game}-->
@@ -26,9 +27,9 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid"
-                                            src="{'~/storage/' + ${game.image.fileName}}"
-                                            alt="card image"></p>
+                                    <#--<p><img class=" img-fluid"-->
+                                            <#--src="{'~/storage/' + ${game.image.fileName}}"-->
+                                            <#--alt="card image"></p>-->
                                     <h4 class="card-title">${game.gameTitle}</h4>
                                     <p class="card-text">${game.genre}</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -40,12 +41,13 @@
                                 <div class="card-body text-center mt-4">
                                     <h4 class="card-title">${game.gameTitle}</h4>
                                     <p class="card-text">${game.description}</p>
-                                    <#--<ul class="list-inline">-->
-                                        <#--<li class="list-inline-item">-->
-                                            <#--<a class="social-icon text-xs-center" target="_blank" href="#">-->
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="btn btn-warning" href="/addReview">Написать рецензию</a>
+                                        <#--<a class="social-icon text-xs-center" target="_blank" href="#">-->
                                                 <#--<i class="fa fa-facebook"></i>-->
                                             <#--</a>-->
-                                        <#--</li>-->
+                                        </li>
                                         <#--<li class="list-inline-item">-->
                                             <#--<a class="social-icon text-xs-center" target="_blank" href="#">-->
                                                 <#--<i class="fa fa-twitter"></i>-->
@@ -74,5 +76,6 @@
         </div>
     </div>
 </section>
+</div>
 </body>
 <!-- Team -->

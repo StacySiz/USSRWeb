@@ -25,7 +25,7 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #343a40;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
@@ -114,12 +114,12 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: #343a40 !important;
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: #343a40 !important;
 }
 
 .frontside .card .card-body img {
