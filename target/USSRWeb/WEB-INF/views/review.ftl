@@ -1,4 +1,4 @@
-﻿<!doctype html>
+﻿﻿<!doctype html>
 <html lang="ru">
 <head>
     <!-- Required meta tags -->
@@ -25,12 +25,12 @@
         <div class="row">
             <div class="col-md-8 blog-main">
                 <h3 class="pb-3 mb-4 font-italic border-bottom">
-                    Информация об игре
+                    Рецензия на игру
                 </h3>
                 <div class="blog-post">
                     <h2 class="blog-post-title">${review.getReviewName()}</h2>
                     <p class="blog-post-meta">${review.getReviewDate()}</p>
-                    <p>${review.getScore()}</p>
+                    <p>${review.getScore()}/10</p>
                     <hr>
                 <#--<p style="font: large">Cum sociis natoque penatibus et magnis, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>-->
                     <blockquote>
